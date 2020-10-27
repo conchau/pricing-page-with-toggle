@@ -1,0 +1,381 @@
+@media (min-width: 981px) {
+  body {
+    background: url("/images/bg-bottom.svg") fixed bottom left no-repeat,
+      url("/images/bg-top.svg") fixed right top no-repeat;
+    background-color: hsl(240, 78%, 98%);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+
+  /* HEADER SECTION */
+  h1 {
+    color: hsl(233, 13%, 49%);
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  h3 {
+    color: hsl(234, 14%, 74%);
+    font-size: 15px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+
+  .fa-toggle-on {
+    color: hsl(237, 63%, 64%);
+    font-size: 50px;
+    padding: 0 10px;
+    position: relative;
+    top: 10px;
+    transform: rotate(180deg);
+  }
+
+  .fa-toggle-on-hover {
+    opacity: 50%;
+  }
+
+  .monthly {
+    transform: rotate(0deg);
+  }
+
+  /* CARD SECTION */
+  .card {
+    color: hsl(233, 13%, 49%);
+    width: 315px;
+    height: 415px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  .basic {
+    position: relative;
+    margin: auto;
+    right: 315px;
+    top: 25px;
+  }
+
+  .professional {
+    background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+    height: 465px;
+    position: relative;
+    margin: auto;
+    bottom: 415px;
+  }
+
+  .master {
+    position: relative;
+    margin: auto;
+    left: 315px;
+    bottom: 855px;
+  }
+
+  p {
+    padding: 5px 0;
+    margin: 0;
+  }
+
+  .line-break {
+    color: hsl(234, 14%, 74%);
+    font-size: 8px;
+  }
+
+  .plan-type {
+    font-size: 20px;
+    padding: 30px 0;
+  }
+
+  #professional-plan-type {
+    padding-top: 55px;
+  }
+
+  .price-dark {
+    color: hsl(232, 13%, 33%);
+    font-size: 60px;
+  }
+
+  .price-light {
+    color: white;
+    font-size: 60px;
+  }
+
+  /* CALL TO ACTION BUTTONS */
+  .learn-more {
+    position: relative;
+    top: 3px;
+  }
+
+  .btn-dark-basic {
+    background-image: linear-gradient(
+      to right,
+      hsl(236, 72%, 79%),
+      hsl(237, 63%, 64%)
+    );
+    border-radius: 5px;
+    color: white;
+    width: 225px;
+    height: 35px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .btn-dark-basic-hover {
+    background-image: linear-gradient(to right, white, white);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: hsl(237, 63%, 64%);
+    border-width: 1px;
+    color: hsl(237, 63%, 64%);
+    width: 225px;
+    height: 35px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .btn-light {
+    background-color: white;
+    border-radius: 5px;
+    color: hsl(237, 63%, 64%);
+    width: 225px;
+    height: 35px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .btn-light-hover {
+    background-image: linear-gradient(
+      to right,
+      hsl(237, 63%, 64%),
+      hsl(237, 63%, 64%)
+    );
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    width: 225px;
+    height: 35px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .btn-dark-master {
+    background-image: linear-gradient(
+      to right,
+      hsl(236, 72%, 79%),
+      hsl(237, 63%, 64%)
+    );
+    border-radius: 5px;
+    color: white;
+    width: 225px;
+    height: 35px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .btn-dark-master-hover {
+    background-image: linear-gradient(to right, white, white);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: hsl(237, 63%, 64%);
+    border-width: 1px;
+    color: hsl(237, 63%, 64%);
+    width: 225px;
+    height: 35px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  footer {
+    font-size: 10px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  body {
+    background: url("/images/bg-top.svg") no-repeat;
+    background-size: 80%;
+    background-position: top -2% left 270%;
+    background-color: hsl(240, 78%, 98%);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+
+  /* HEADER SECTION */
+  h1 {
+    color: hsl(233, 13%, 49%);
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  h3 {
+    color: hsl(234, 14%, 74%);
+    font-size: 15px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+
+  .fa-toggle-on {
+    color: hsl(237, 63%, 64%);
+    font-size: 50px;
+    padding: 0 10px;
+    position: relative;
+    top: 10px;
+    transform: rotate(180deg);
+  }
+
+  .fa-toggle-on-hover {
+    opacity: 50%;
+  }
+
+  /* CARD SECTION */
+  .card {
+    color: hsl(233, 13%, 49%);
+    width: 315px;
+    height: 415px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  .basic {
+    position: relative;
+    margin: auto;
+  }
+
+  .professional {
+    background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    color: white;
+    height: 465px;
+    position: relative;
+    margin: 40px auto;
+  }
+
+  .master {
+    position: relative;
+    margin: 40px auto;
+  }
+
+  p {
+    padding: 5px 0;
+    margin: 0;
+  }
+
+  .line-break {
+    color: hsl(234, 14%, 74%);
+    font-size: 8px;
+  }
+
+  .plan-type {
+    font-size: 20px;
+    padding: 30px 0;
+  }
+
+  .price-dark {
+    color: hsl(232, 13%, 33%);
+    font-size: 60px;
+  }
+
+  .price-light {
+    color: white;
+    font-size: 60px;
+  }
+
+  /* CALL TO ACTION BUTTONS */
+  .learn-more {
+    position: relative;
+    top: 3px;
+  }
+
+  .btn-dark-basic {
+    background-image: linear-gradient(
+      to right,
+      hsl(236, 72%, 79%),
+      hsl(237, 63%, 64%)
+    );
+    border-radius: 5px;
+    color: white;
+    width: 225px;
+    height: 35px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .btn-dark-basic-hover {
+    background-image: linear-gradient(to right, white, white);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: hsl(237, 63%, 64%);
+    border-width: 1px;
+    color: hsl(237, 63%, 64%);
+    width: 225px;
+    height: 35px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .btn-light {
+    background-color: white;
+    border-radius: 5px;
+    color: hsl(237, 63%, 64%);
+    width: 225px;
+    height: 35px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .btn-light-hover {
+    background-image: linear-gradient(
+      to right,
+      hsl(237, 63%, 64%),
+      hsl(237, 63%, 64%)
+    );
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    width: 225px;
+    height: 35px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .btn-dark-master {
+    background-image: linear-gradient(
+      to right,
+      hsl(236, 72%, 79%),
+      hsl(237, 63%, 64%)
+    );
+    border-radius: 5px;
+    color: white;
+    width: 225px;
+    height: 35px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .btn-dark-master-hover {
+    background-image: linear-gradient(to right, white, white);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: hsl(237, 63%, 64%);
+    border-width: 1px;
+    color: hsl(237, 63%, 64%);
+    width: 225px;
+    height: 35px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  footer {
+    font-size: 10px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}

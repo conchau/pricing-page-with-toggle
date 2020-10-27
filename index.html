@@ -1,52 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/2da0d237db.js"
+      crossorigin="anonymous"
+    ></script>
 
-  Our Pricing
-  Annually
-  Monthly
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
-  Basic
-  &dollar;19.99
-  &dollar;199.99
-  500 GB Storage
-  2 Users Allowed
-  Send up to 3 GB
-  Learn More
+    <link rel="stylesheet" href="styles.css" />
 
-  Professional
-  &dollar;24.99
-  &dollar;249.99
-  1 TB Storage
-  5 Users Allowed
-  Send up to 10 GB
-  Learn More
+    <title>Frontend Mentor | Pricing Page with Toggle</title>
+  </head>
+  <body>
+    <h1>Our Pricing</h1>
+    <h3>
+      Annually
+      <span class="fas fa-toggle-on"></span>
+      Monthly
+    </h3>
+    <div class="card-container">
+      <div class="basic card">
+        <p class="plan-type">Basic</p>
+        <a class="price-dark">$199.99</a>
+        <p class="line-break">
+          ______________________________________________________________
+        </p>
+        <p>500 GB Storage</p>
+        <p class="line-break">
+          ______________________________________________________________
+        </p>
+        <p>2 Users Allowed</p>
+        <p class="line-break">
+          ______________________________________________________________
+        </p>
+        <p>Send up to 3 GB</p>
+        <p class="line-break">
+          ______________________________________________________________
+        </p>
+        <div class="btn-dark-basic">
+          <p class="learn-more">LEARN MORE</p>
+        </div>
+      </div>
+      <div class="professional card">
+        <p class="plan-type" id="professional-plan-type">Professional</p>
+        <a class="price-light">$249.99</a>
+        <p class="line-break">
+          ______________________________________________________________
+        </p>
+        <p>1 TB Storage</p>
+        <p class="line-break">
+          ______________________________________________________________
+        </p>
+        <p>5 Users Allowed</p>
+        <p class="line-break">
+          ______________________________________________________________
+        </p>
+        <p>Send up to 10 GB</p>
+        <p class="line-break">
+          ______________________________________________________________
+        </p>
+        <div class="btn-light"><p class="learn-more">LEARN MORE</p></div>
+      </div>
+      <div class="master card">
+        <p class="plan-type">Master</p>
+        <a class="price-dark">$399.99</a>
+        <p class="line-break">
+          ______________________________________________________________
+        </p>
+        <p>2 TB Storage</p>
+        <p class="line-break">
+          ______________________________________________________________
+        </p>
+        <p>10 Users Allowed</p>
+        <p class="line-break">
+          ______________________________________________________________
+        </p>
+        <p>Send up to 20 GB</p>
+        <p class="line-break">
+          ______________________________________________________________
+        </p>
+        <div class="btn-dark-master"><p class="learn-more">LEARN MORE</p></div>
+      </div>
+    </div>
 
-  Master
-  &dollar;39.99
-  &dollar;399.99
-  2 TB Storage
-  10 Users Allowed
-  Send up to 20 GB
-  Learn More
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Connor Chau</a>.
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
